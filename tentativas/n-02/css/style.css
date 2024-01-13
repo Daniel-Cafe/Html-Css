@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font01: sans-serif;
+    --font02: arial;
+    --cor01: #ffffff;
+    --cor02: #000000;
+    --cor03: #292929;
+    --cor04: #;
+}
+
+body {
+    background-color: var(--cor02);
+    font-family: var(--font01);
+    color: var(--cor01);
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* header */
+
+.topo {
+    display: inline-flex;
+}
+
+.form {
+    margin-top: -80px;
+    margin-left: 800px;
+}
+form input {
+    padding: 10px 0px;
+    padding-left: 5px;
+    padding-right: 90px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: var(--cor01);
+    background-color: var(--cor02);
+    color: var(--cor01);
+}
+
+.topo h1 {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--cor03);
+}
+
+nav ul {
+    margin-left: 110px;
+    list-style-type: none;
+}
+nav li {
+    margin-left: 10px;
+    display: inline-flex;
+    font-size: 1.1em;
+}
+nav li a {
+    color: var(--cor01);
+    text-decoration: none;
+}
+
+.cabeçalho {
+    margin-top: -300px;
+    margin-left: 90px;
+    text-shadow: 2px 2px 2px #00000033;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #4a6da7;
+}
+header button {
+    margin-top: 40px;
+}
+
+button a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+button:hover {
+    background-color: #345996;
+}
+
+main {
+    margin-top: 160px;
+    background-color: var(--cor03);
+}
+
+.veja-mais {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+.veja-mais a {
+    color: var(--cor01);
+}
+
+.destaque {
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+.destaque div {
+    display: grid;
+    text-align: justify;
+}
+
+.destaque a {
+    color: var(--cor01 );
+}
+
+.destaque img {
+    max-width: 320px;
+}
+
+.biblia {
+    display: flex;
+    margin-top: 105px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.biblia img {
+    max-width: 137px;
+}
+
+#bi {
+    margin-left: 15px;
+}
+
+#bi a {
+    color: var(--cor01);
+}
+
+#bi p {
+    margin-top: 10px;
+}
+
+#bi02 {
+    margin-left: 150px;
+}
+
+#bi02 button {
+    margin-top: 40px;
+}

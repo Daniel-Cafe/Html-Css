@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* Cabeçalho*/
+
+header {
+    display: flex;
+    margin: auto;
+    max-width: 1160px;
+}
+
+.topo {
+    display: flex;
+}
+
+nav {
+    margin-top: -20px;
+    background-color:#292929;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    max-width: 1160px;
+    margin-left: 200px;
+}
+
+nav li {
+    margin-left: 10px;
+    padding: 8px;
+}
+
+#inicio {
+    margin-left: 9px;
+}
+
+main {
+    max-width: 1160px;
+    margin: auto;
+    background-color: #121212;
+}
+
+article {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.destaque img {
+    max-width: 100px;
+}

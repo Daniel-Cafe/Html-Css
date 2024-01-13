@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Header */
+
+.titulo {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.titulo h1 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* Nav */
+
+.menu {
+    background-color: #292929;
+}
+
+.menu-nav {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: -30px;
+    margin-left: 210px;
+}
+
+.menu-nav button {
+    margin-left: 5px;
+    padding: 12px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-nav button:hover {
+    background-color: #121212;
+}
+
+/* Nav-Js */
+
+#ensinos {
+    display: none;
+}
+
+#biblioteca {
+    display: none;
+}
+
+/* Elemantos Js */
+
+.elementos-js {
+    max-width: 1140px;
+    margin: auto;
+    background-color: #3c3c3c;
+}
+
+.prin {
+    padding-bottom: 20px;
+}
+
+.prin a {
+    color: #4a6da7;
+}
+
+.ensinos-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.ensinos-ul ul {
+    list-style: none;
+}
+
+.ensinos-ul li {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.ensinos-ul a {
+    color: #4a6da7;
+}
+
+/* Header Destaque */
+
+.destaque {
+    max-width: 1140px;
+    margin: auto;
+    color: #fff;
+}
+
+.destaque-img {
+    background-image: url("../img/destaque.jpg");
+    max-width: 1140px;
+    height: 420px;
+}
+
+.conteiner {
+    margin-top: -60px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 24px;
+    background-color: #292929;
+}
+
+.conteiner h1 {
+    margin-top: 3px;
+    margin-bottom: 7px;
+    font-size: 2.5rem;
+}
+
+.conteiner button {
+    margin-top: 34px;
+}
+
+/* Button Geral */
+.bnt {
+    border: none;
+    padding: 5px;
+    color: #fff;
+    background-color: #4a6da7;
+    font-size: 1.4rem;
+}
+
+.bnt:hover {
+    background-color: #345996;
+}
