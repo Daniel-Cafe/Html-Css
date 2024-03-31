@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Passion One";
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    font-family: "Passion One";
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+main {
+    margin: 0 2%;
+}
+
+main section {
+    margin-top: 60px;
+    text-align: justify;
+}
+
+footer {
+    margin: 0 2%;
+    text-align: center;
+}
